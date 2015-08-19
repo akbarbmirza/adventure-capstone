@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+}
+
+#stage {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/landscape.jpg);
+  background-size: cover;
+  width: 800px;
+  height: 500px;
+  margin: 50px 0;
+  padding: 20px;
+  position: relative;
+
+}
+.story-text {
+  position: absolute;
+  width: 200px;
+  height: calc(100% - 40px);
+  overflow: auto;
+  top: 0;
+  left: 0;
+  background: pink;
+  padding: 20px;
+}
+.story-graphics {
+  position: absolute;
+  top: 0;
+  left: 240px;
+  padding: 20px;
+}
+
+
+
+
+
+/* Scene specific CSS */
+body.scene-2 #stage {
+  transition: 5s;
+  background-position: 300px 0;
+}
+
+body.scene-4 #stage {
+
+  background-image: url(new-background.jpg);
+}
