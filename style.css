@@ -24,8 +24,11 @@ body {
 }
 
 .choices {
-  position: absolute;
-  bottom: 0px;
+  width: 100%;
+}
+
+.choices button {
+  width: 100%;
 }
 
 .story-graphics {
