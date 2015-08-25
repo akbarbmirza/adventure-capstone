@@ -6,7 +6,7 @@ body {
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/landscape.jpg);
   background-size: cover;
   width: 1200px;
-  height: 600px;
+  height: 500px;
   margin: 50px 0;
   padding: 20px;
   position: relative;
@@ -22,6 +22,12 @@ body {
   background: #EAE9E7;
   padding: 20px;
 }
+
+.choices {
+  position: absolute;
+  bottom: 0px;
+}
+
 .story-graphics {
   position: absolute;
   width: 70%;
