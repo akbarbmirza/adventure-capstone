@@ -5,8 +5,8 @@ body {
 #stage {
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/landscape.jpg);
   background-size: cover;
-  width: 800px;
-  height: 500px;
+  width: 1200px;
+  height: 600px;
   margin: 50px 0;
   padding: 20px;
   position: relative;

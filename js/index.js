@@ -59,4 +59,3 @@ var AventureStory = {
 }
 
 AventureStory.init();
-
