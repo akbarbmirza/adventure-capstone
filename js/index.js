@@ -7,9 +7,12 @@ var AventureStory = {
 
   bindUIEvents: function() {
 
-    $("body").on("change", ".choices input[name='choice']", function() {
+    $("body").on("click", ".choices button[name='choice']", function() {
 
-      var choice = $(".choices input[name='choice']").filter(":checked").val();
+      var choice = $(this).val();
+
+      // NOTE: Debug Code
+      console.log(choice);
 
       // value is what scene you go TO
 
