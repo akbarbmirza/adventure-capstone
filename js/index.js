@@ -56,7 +56,7 @@ var AventureStory = {
   },
 
   setUpStory: function() {
-    this._getScene(1);
+    this._getScene(11);
   }
 
 }
