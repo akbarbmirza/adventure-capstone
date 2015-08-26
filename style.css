@@ -1,5 +1,8 @@
 body {
+  box-sizing: border-box;
   font-family: sans-serif;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 #stage {
@@ -7,7 +10,6 @@ body {
   background-size: cover;
   width: 1200px;
   height: 500px;
-  margin: 50px 0;
   padding: 20px;
   position: relative;
 
@@ -21,6 +23,11 @@ body {
   left: 0;
   background: #EAE9E7;
   padding: 20px;
+}
+
+.desc {
+  font-size: 1em;
+  line-height: 1.25em;
 }
 
 .choices {
