@@ -11,14 +11,23 @@ body {
   background: #2B2112;
 }
 
+a {
+  text-decoration: none;
+}
+
 .logo {
   font-family: 'VT323';
-  color: #7CC0FF;
   text-transform: uppercase;
   font-size: 4rem;
   line-height: 0.8;
   transform-origin: top left;
   transform: rotate(-8deg) translateY(20px);
+}
+.logo a {
+  color: #7CC0FF;
+  text-shadow:
+    2px 2px 0 red,
+    4px 4px 0 orange;
 }
 
 #stage {
