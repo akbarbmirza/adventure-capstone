@@ -11,11 +11,7 @@ var AventureStory = {
 
       var choice = $(this).val();
 
-      // NOTE: Debug Code
-      console.log(choice);
-
       // value is what scene you go TO
-
       AventureStory._getScene(choice);
 
     });
@@ -46,8 +42,6 @@ var AventureStory = {
   },
 
   _setState: function(scene) {
-
-    console.log("test");
 
     $("body").removeClass("scene-1 scene-2");
 
