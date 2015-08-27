@@ -91,3 +91,14 @@ a {
 body.scene-21 #stage {
   background-position: -476px 0;
 }
+
+body.scene-22 #stage {
+  background-image: url(images/11-22.jpg);
+  background-position: -476px 0;
+}
+
+body.scene-31 #stage {
+  transition: 0s;
+  background-image: url(images/31.jpg);
+  background-position: 361px 0;
+}
