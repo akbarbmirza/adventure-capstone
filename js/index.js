@@ -28,22 +28,15 @@ var AventureStory = {
 
       $("#stage").html(data);
 
-      AventureStory._updateData(scene);
-
       AventureStory._setState(scene);
 
     })
   },
 
-  _updateData: function() {
-
-    $(".character-name").html(Data.characterName);
-
-  },
-
   _setState: function(scene) {
 
-    $("body").removeClass("scene-1 scene-2");
+    // https://gist.github.com/peteboere/1517285
+    $('body').alterClass("scene-*");
 
     $("body").addClass("scene-" + scene);
 
