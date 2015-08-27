@@ -38,7 +38,7 @@ a {
   transform: translateZ(0);
   transition: background-position 1s;
   background: url(images/bg.jpg);
-  background-position: 0 0;
+  background-position: 300px 0;
 
 }
 .story-text {
