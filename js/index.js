@@ -1,5 +1,6 @@
 var AventureStory = {
 
+  // Table of Contents
   init: function() {
     this.setUpStory();
     this.bindUIEvents();

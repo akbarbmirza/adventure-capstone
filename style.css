@@ -36,10 +36,14 @@ a {
   padding: 20px;
   position: relative;
   transform: translateZ(0);
-  transition: background-position 1s;
-  background: url(images/bg.jpg);
-  background-position: 0 0;
 
+  /* does the animation */
+  transition: background-position 1s;
+
+  background: url(images/11-21.jpg);
+
+  /* pushing over so doesn't get hidden */
+  background-position: 300px 0;
 }
 .story-text {
   position: absolute;
@@ -89,6 +93,33 @@ a {
 
 
 /* Scene specific CSS */
+
+/*
+  You're looking in the web inspector for:
+  <body class="scene-61" ... >
+*/
+
+/* CAR */
 body.scene-21 #stage {
-  background-position: -300px 0;
+  /* animated!!! */
+  background-position: -476px 0;
+}
+
+/* BIKE */
+body.scene-22 #stage {
+  background-image: url(images/11-22.jpg);
+  background-position: -476px 0;
+}
+
+/* GAS STATION */
+body.scene-31 #stage {
+  /* Because it's a scene change */
+  transition: 0s;
+
+  background-image: url(images/31.jpg);
+  background-position: 361px 0;
+}
+
+body.scene-61 #stage {
+
 }
