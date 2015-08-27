@@ -16,7 +16,7 @@ a {
 }
 
 .logo {
-  font-family: 'VT323';
+  font-family: 'VT323', mono-space;
   text-transform: uppercase;
   font-size: 4rem;
   line-height: 0.8;
@@ -31,12 +31,14 @@ a {
 }
 
 #stage {
-  /*background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/landscape.jpg);
-  background-size: cover;*/
   width: 1200px;
   height: 800px;
   padding: 20px;
   position: relative;
+  transform: translateZ(0);
+  transition: background-position 1s;
+  background: url(images/bg.jpg);
+  background-position: 300px 0;
 
 }
 .story-text {
@@ -77,9 +79,7 @@ a {
 }
 
 .story-graphics {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/landscape.jpg);
   height: 100%;
-  background-size: cover;
   position: absolute;
   width: 70%;
   top: 0;
@@ -88,20 +88,7 @@ a {
 }
 
 
-
-
-
 /* Scene specific CSS */
 body.scene-21 #stage {
-  transition: 5s;
-}
-
-body.scene-21 .story-graphics {
-
-  background-position: 300px 0;
-}
-
-body.scene-4 #stage {
-
-  background-image: url(new-background.jpg);
+  background-position: -300px 0;
 }
