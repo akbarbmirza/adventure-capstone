@@ -37,9 +37,8 @@ a {
   position: relative;
   transform: translateZ(0);
   transition: background-position 1s;
-  background: url(images/bg.jpg);
+  background: url(images/11-21.jpg);
   background-position: 300px 0;
-
 }
 .story-text {
   position: absolute;
@@ -90,5 +89,5 @@ a {
 
 /* Scene specific CSS */
 body.scene-21 #stage {
-  background-position: -300px 0;
+  background-position: -476px 0;
 }
