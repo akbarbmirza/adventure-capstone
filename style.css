@@ -153,7 +153,35 @@ body.scene-32 #stage {
 /*WALK*/
 body.scene-23 #stage {
   background-image: url(images/walk1.png);
-  background-position: 200px 0;
+  background-position: 300px 0;
 
+}
+
+
+/*SHORTCUT*/
+body.scene-61 #stage {
+  background-image: url(images/forest1.png);
+  background-position: 300px 0;
+}
+
+
+body.scene-71 #stage {
+  background-image: url(images/forest1.png);
+  background-position: 300px 0;
+}
+
+
+body.scene-81 #stage {
+  background-image:  url(Assets/wolf.png);
+  background-position: 300px 0;
+
+}
+
+
+
+body.scene-82 #stage {
+  background-image:  url(images/grandma.png);
+  background-position: 300px 0;
+  
 }
 
