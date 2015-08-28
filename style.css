@@ -130,3 +130,30 @@ body.scene-42 #stage {
   background-image: url(images/trollface.png);
   background-position: 300px 0;
 }
+
+
+body.scene-43 #stage {
+  background-image: url(images/astroid.png);
+  background-position: 361px 0;
+}
+
+
+
+/*WORK*/
+body.scene-32 #stage {
+  background-image: url(images/31.png);
+  background-position: 361px 0;
+}
+
+
+
+
+
+
+/*WALK*/
+body.scene-23 #stage {
+  background-image: url(images/walk1.png);
+  background-position: 200px 0;
+
+}
+
