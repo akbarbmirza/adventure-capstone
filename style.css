@@ -123,5 +123,6 @@ body.scene-31 #stage {
 body.scene-41 #stage{
 
   background-image: url(Assets/pepe.png);
-  background-position: 100px 0;
+  background-position: 361px 0;
+  margin-bottom: 100px;
 }
