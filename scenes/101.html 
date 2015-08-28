@@ -1,8 +1,9 @@
 <div class="story-text">
 
-  <h3 class="title">Scene 10, Page 1!</h3>
+  <!-- <h3 class="title">Scene 10, Page 1!</h3> -->
 
   <p class="desc">You and Kevin arrive at the party.   The house is lit up and decorated and everyone is having a great time.  A couple people start going around the party telling everyone that the cake is ready and they’re going to sing Happy Birthday to Akbar.  But….the nefarious Pepe is telling you to meet in the living room to do this and get some cake and Steph is telling you, “No! The cake is an awesome surprise and it’s in the TV room”.</p>
+  
   <form class="choices">
     <h4 class="prompt">
        Which room do you want to go into?
