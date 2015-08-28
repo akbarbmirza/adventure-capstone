@@ -121,7 +121,6 @@ body.scene-31 #stage {
 }
 
 body.scene-41 #stage{
-
   background-image: url(images/pepe.png);
   background-position: 361px 0;
 }
@@ -131,9 +130,8 @@ body.scene-42 #stage {
   background-position: 300px 0;
 }
 
-
 body.scene-43 #stage {
-  background-image: url(images/astroid.png);
+  background-image: url(images/astroid.jpg);
   background-position: 361px 0;
 }
 
@@ -144,9 +142,6 @@ body.scene-32 #stage {
   background-image: url(images/31.png);
   background-position: 361px 0;
 }
-
-
-
 
 
 
@@ -169,19 +164,33 @@ body.scene-71 #stage {
   background-image: url(images/forest1.png);
   background-position: 300px 0;
 }
-
-
-body.scene-81 #stage {
-  background-image:  url(Assets/wolf.png);
+body.scene-72 #stage {
+  background-image: url(images/zombie.jpg);
   background-position: 300px 0;
-
+}
+body.scene-73 #stage {
+  background-image: url(images/shia.jpg);
+  background-position: 300px 0;
+}
+body.scene-74 #stage {
+  background-image: url(images/shia.jpg);
+  background-position: 300px 0;
 }
 
-
+body.scene-81 #stage {
+  background-image:  url(images/wolf.png);
+  background-position: 300px 0;
+}
 
 body.scene-82 #stage {
-  background-image:  url(images/grandma.png);
+  background-image:  url(images/grandma.jpg);
   background-position: 300px 0;
-  
+}
+
+body.scene-101 #stage,
+body.scene-111 #stage,
+body.scene-112 #stage {
+  background-image: url(images/party.jpg);
+  background-position: 300px 0;
 }
 
