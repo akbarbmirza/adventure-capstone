@@ -125,3 +125,8 @@ body.scene-41 #stage{
   background-image: url(images/pepe.png);
   background-position: 361px 0;
 }
+
+body.scene-42 #stages {
+  background-image: url(images/trollface.png);
+  background-position: 300px 0;
+}
